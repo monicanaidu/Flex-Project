@@ -1,0 +1,30 @@
+/* mobile */
+
+@media(max-width:992px){
+    .banner{
+        background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/mobile.jpg) no-repeat right;
+    }   
+
+    .container{
+        flex-flow: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .card>section:first-child{
+        flex-flow: column;
+    }
+
+    .getInTouch>div{
+        margin: 0px;
+    }
+}
+
+/* tab */
+
+@media(min-width:993px) and (max-width:1200px)
+{
+    .banner{
+        background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/desktop.jpg) no-repeat center;
+    }
+}
